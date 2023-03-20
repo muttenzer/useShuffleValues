@@ -33,11 +33,17 @@ On our agency website, [Complerity.ch](https://complerity.ch/) we use the hook o
 
 ***We style the links with the returned currentValue and call the shuffleValues function onMouseLeave:***
 
-https://user-images.githubusercontent.com/49474412/226444294-911e1eb0-2142-4ab1-8339-8b931bd11fff.mp4
+
+https://user-images.githubusercontent.com/49474412/226445528-6c643b5c-8784-46ba-88c7-2e6cccf37780.mp4
+
+
 
 ***We style the menu layer with the returned currentValue and call the shuffleValues function in a gsap timeline callback:***
 
-https://user-images.githubusercontent.com/49474412/226444731-92dbe59f-fb7a-4877-8651-7721ec83da53.mp4
+
+https://user-images.githubusercontent.com/49474412/226445497-b8c4749a-44e5-4dbf-b8c0-050edb6102db.mp4
+
+
 
 ## Balancing
 If you want to get a value more over another, just pass in the desired value multiple times.
