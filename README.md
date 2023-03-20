@@ -5,13 +5,13 @@ A handy react hook to get a random value from an array without repeating the mos
 Pass in the desired values
 ```tsx
 const { currentValue, shuffleValues } = useShuffleValues([
-    "brand.purple",
-    "brand.orange",
-    "brand.green",
-    "brand.pink",
-    "brand.red",
-    "brand.blue",
-    "brand.yellow",
+    "purple",
+    "orange",
+    "green",
+    "pink",
+    "red",
+    "blue",
+    "yellow",
 ]);
 ```
 Use the returned currentValue in your component
@@ -32,10 +32,10 @@ const someFunction = () => {
 On our agency website, [Complerity.ch](https://complerity.ch/) we use the hook on several pages.
 
 ***We style the links with the returned currentValue and call the shuffleValues function onMouseLeave:***
-https://user-images.githubusercontent.com/49474412/224546922-6a257dc5-ef4a-4190-aa0c-7548d161fc74.mov
+https://user-images.githubusercontent.com/49474412/226444294-911e1eb0-2142-4ab1-8339-8b931bd11fff.mp4
 
 ***We style the menu layer with the returned currentValue and call the shuffleValues function in a gsap timeline callback:***
-https://user-images.githubusercontent.com/49474412/224547163-195d5798-4bac-4cd2-8ac8-6482f1a435ac.mov
+https://user-images.githubusercontent.com/49474412/226444731-92dbe59f-fb7a-4877-8651-7721ec83da53.mp4
 
 ## Balancing
 If you want to get a value more over another, just pass in the desired value multiple times.
