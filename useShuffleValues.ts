@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-type ValueType<K> = Array<K>;
+export type GenericArrayWithMinimumTwoItems<T> = [T, T, ...T[]];
 
-// TODO: Enforce min 2 items
-
-export const useShuffleValues = <K,>(values: ValueType<K>) => {
-    const getRandomValue = (arr?: ValueType<K>) => {
+export const useShuffleValues = <T,>(
+    values: GenericArrayWithMinimumTwoItems<T>
+) => {
+    const getRandomValue = (arr?: GenericArrayWithMinimumTwoItems<T>) => {
         if (arr) {
             return arr[Math.floor(Math.random() * values.length)];
         }
