@@ -5,7 +5,7 @@ export type GenericArrayWithMinimumTwoItems<T> = [T, T, ...T[]];
 export const useShuffleValues = <T,>(
     values: GenericArrayWithMinimumTwoItems<T>
 ) => {
-    const getRandomValue = (arr: ValueType<T> = values) => {
+    const getRandomValue = (arr: GenericArrayWithMinimumTwoItems<T> = values) => {
         return arr[Math.floor(Math.random() * arr.length)];
     };
 
